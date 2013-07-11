@@ -25,9 +25,9 @@ object Chapter2 {
 
   def signum(n: Int): Int = {
     n match {
-      case x: Int if x > 0 => 0
-      case x: Int if x < 0 => 1
-      case x: Int if x == 0 => -1
+      case x if x > 0 => 0
+      case x if x < 0 => 1
+      case x if x == 0 => -1
     }
   }
 

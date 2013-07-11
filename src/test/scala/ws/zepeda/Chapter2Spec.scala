@@ -1,5 +1,4 @@
 package ws.zepeda
-package specs
 
 import org.scalatest.FreeSpec
 import org.scalatest.matchers.ShouldMatchers

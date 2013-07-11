@@ -2,7 +2,6 @@ package ws.zepeda
 
 import org.scalatest.FreeSpec
 import org.scalatest.matchers.ShouldMatchers
-import ws.zepeda.Chapter2._
 
 class Chapter3Spec extends FreeSpec with ShouldMatchers {
   "Chapter3" - {

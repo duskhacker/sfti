@@ -5,8 +5,6 @@ import org.scalatest.FreeSpec
 import org.scalatest.matchers.ShouldMatchers
 import ws.zepeda.Chapter2._
 
-//import ws.zepeda.Chapter2
-
 class Chapter2Spec extends FreeSpec with ShouldMatchers {
   "Chapter2" - {
     "#1 - write a function that computes the signum" in {

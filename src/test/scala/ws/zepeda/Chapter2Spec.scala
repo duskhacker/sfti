@@ -1,10 +1,9 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, FreeSpec}
 import ws.zepeda.Chapter2._
 
-class Chapter2Spec extends FreeSpec with ShouldMatchers {
+class Chapter2Spec extends FreeSpec with Matchers {
   "Chapter2" - {
     "#1 - write a function that computes the signum" in {
       signum(10) should be(0)

@@ -1,10 +1,9 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, FreeSpec}
 import ws.zepeda.Chapter5._
 
-class Chapter5Spec extends FreeSpec with ShouldMatchers {
+class Chapter5Spec extends FreeSpec with Matchers {
   "Chapter5" - {
     "#1 - Improve the Counter class in Section 5.1 , “ Simple Classes and Parameterless Methods" in {
       // Why No Multiple Inheritance?,” on page 49 so that it doesn’t turn negative at Int.MaxValue

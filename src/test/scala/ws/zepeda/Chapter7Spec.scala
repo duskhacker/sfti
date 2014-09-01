@@ -1,10 +1,8 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
-import ws.zepeda.Chapter7._
+import org.scalatest.{FreeSpec, Matchers}
 
-class Chapter7Spec extends FreeSpec with ShouldMatchers {
+class Chapter7Spec extends FreeSpec with Matchers {
   "Chapter7" - {
     "#1 - Write an example program to demonstrate that" ignore {
       // package com.horstmann.impatient
@@ -18,7 +16,6 @@ class Chapter7Spec extends FreeSpec with ShouldMatchers {
     }
 
     "#2 - Write a puzzler that baffles your Scala friends, using a package com that isn’t at the top level" in {
-      import ws.zepeda._
       com.Foo.bar should be(())
     }
 
@@ -62,9 +59,7 @@ class Chapter7Spec extends FreeSpec with ShouldMatchers {
       scalaHashMap("Qadir") should be(-19.08)
     }
 
-    "#8 -  What is the effect of import java._ import javax._ Is this a good idea?" in {
-      import java._
-      import javax._; // It works. The effect is pulling in all of java + java "extensions."
+    "#8 -  What is the effect of import java._ import javax._ Is this a good idea?" in {; // It works. The effect is pulling in all of java + java "extensions."
 
       // Not being a java programmer, I really don't know, nor do I care to find out
       // 'cause it's probably peripheral to learning Scala.

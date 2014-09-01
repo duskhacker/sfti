@@ -1,9 +1,8 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, FreeSpec}
 
-class Chapter3Spec extends FreeSpec with ShouldMatchers {
+class Chapter3Spec extends FreeSpec with Matchers {
   "Chapter3" - {
     "#1 - Write a code snippet that sets a to an array of n random integers" in {
       import scala.util.Random

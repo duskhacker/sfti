@@ -1,12 +1,11 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, FreeSpec}
 import scala.io.Source
 import ws.zepeda.Chapter4._
 import scala.collection.immutable.SortedMap
 
-class Chapter4Spec extends FreeSpec with ShouldMatchers {
+class Chapter4Spec extends FreeSpec with Matchers {
   "Chapter4" - {
     "#1 - Set up a map of prices for a number of gizmos that you covet. Then produce a second map with" in {
       // the same keys and the prices at a 10 percent discount

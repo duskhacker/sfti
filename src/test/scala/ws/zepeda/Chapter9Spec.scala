@@ -1,12 +1,13 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
-import scala.io.{BufferedSource, Source}
-import ws.zepeda.Chapter9._
 import java.io._
 
-class Chapter9Spec extends FreeSpec with ShouldMatchers {
+import org.scalatest.{FreeSpec, Matchers}
+import ws.zepeda.Chapter9._
+
+import scala.io.Source
+
+class Chapter9Spec extends FreeSpec with Matchers {
   "Chapter9" - {
 
     trait File4Chap9Num1 {

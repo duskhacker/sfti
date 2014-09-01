@@ -1,10 +1,9 @@
 package ws.zepeda
 
-import org.scalatest.FreeSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, FreeSpec}
 import ws.zepeda.Chapter6._
 
-class Chapter6Spec extends FreeSpec with ShouldMatchers {
+class Chapter6Spec extends FreeSpec with Matchers {
   "Chapter6" - {
     "#1 - Write an object Conversions with methods inchesToCentimeters, gallonsToLiters, and milesToKilometers" in {
 
